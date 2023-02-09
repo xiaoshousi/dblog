@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://growdu.online/growdu.io/
+url: https://growdu.gitee.io/growdu.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -106,11 +106,6 @@ theme: fluid
 deploy:
   type: 'git'
   repo: 
-    github:
-      url: https://github.com/growdu/growdu.io
-    #repo: https://gitee.com/growdu/growdu.gitlab.io.git
-      branch: main
-      token: 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
     gitee:
-      url: https://gitee.com/growdu/growdu.gitlab.io.git
+      url: https://gitee.com/growdu/growdu.io.git
       branch: main
